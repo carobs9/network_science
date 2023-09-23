@@ -1,2 +1,2 @@
 # Network-Science
-Network related projects
+Network related projects from Advanced Network Science class
