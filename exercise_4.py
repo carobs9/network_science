@@ -7,6 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1LkdzvgmvZbiiv7-jKq0oa5zVzmQrKcjh
 """
 
+import pip
 from google.colab import drive
 drive.mount('/content/drive')
 
@@ -18,7 +19,7 @@ https://stellargraph.readthedocs.io/en/stable/demos/embeddings/graphsage-unsuper
 - Find communities on the cora data with label percolation and use them to condense the graph. Compare it visually with the results of the previous approach.
 """
 
-!pip install tqdm
+pip install tqdm
 
 import sys
 sys.path.append('/content/drive/MyDrive/ADVANCED_NETWORK_SCIENCE/exercise_4')
